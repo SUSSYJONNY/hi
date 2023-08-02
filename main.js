@@ -12,13 +12,13 @@ greencar_y = 225;
 
 function add() {
 	background_imgTag = new Image();
-	backgroundImage.onload = uploadBackground;
-	background_imgTag.src = background_image;
+	background_imgTag.onload = uploadBackground;
+	background_imgTag.src = backgroundImage;
 
 
 	greencar_imgTag = new Image();
-	greencarImage.onload = uploadGreenCar;
-	greencar_imgTag.src = greencar_image;
+	greencar_imgTag.onload = uploadGreenCar;
+	greencar_imgTag.src = greencarImage;
 }
 
 function uploadBackground() {
